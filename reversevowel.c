@@ -2,8 +2,9 @@
 #include<string.h>
 int main()
 {
-    char a[20]="shalini",b[20];
+    char a[20],b[20];
     int l,i;
+    scanf("%s",a);
     l=strlen(a);
     for(i=l-1;i>=0;i--)
     {
